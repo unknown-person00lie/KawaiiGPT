@@ -1,0 +1,15 @@
+requests
+urllib3
+cryptography
+pycryptodome
+python-dateutil
+pytz
+colorama
+numpy
+torch
+transformers
+openai
+pytest
+black
+flake8
+mypy
