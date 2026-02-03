@@ -22,7 +22,7 @@ KawaiiGPT is a delightful desktop chat application that brings the power of AI c
 - 💖 **Adorable Interface** - Soft pastel colors that are easy on the eyes
 - 🌈 **Mood Boosting** - Chatting has never been this cute!
 - 🧠 **Powerful AI** - Advanced language model integration
-- 📝 **Full-Featured** - Complete chat management system
+- 📋 **Full-Featured** - Complete chat management system
 - 🔒 **Secure** - Encrypted communication and local storage
 
 ## ✨ Features
@@ -63,54 +63,6 @@ KawaiiGPT is a delightful desktop chat application that brings the power of AI c
   - Debug mode
   - Logging system
 
-### Menu Structure
-
-```
-📁 File                    ✏️ Edit
-├── New Chat               ├── Copy
-├── Open History           ├── Paste
-├── Save Chat              ├── Clear Chat
-├── ─────────              └── Settings
-├── Export                 
-├── Import                 🤖 Model
-└── Exit                   ├── Select Model
-                           ├── Model Settings
-❓ Help                    └── Download Models
-├── Documentation
-├── API Reference
-├── Check Updates
-└── About
-```
-
-## 📷 Preview
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  🌸 KawaiiGPT 🌸              Your Kawaii AI Assistant ✨  🟢   │
-├───────────────┬─────────────────────────────────────────────────┤
-│ 💫 Controls   │                                                 │
-│               │  ┌─────────────────────────────────────────┐   │
-│ [New Chat]    │  │ 🤖 KawaiiGPT                            │   │
-│ [Settings]    │  │ Hello! How can I help you today? ♡     │   │
-│ [History]     │  │                                         │   │
-│               │  │ 👤 You                                  │   │
-│ ─────────     │  │ What's the weather like?                │   │
-│               │  │                                         │   │
-│ Model:        │  │ 🤖 KawaiiGPT                            │   │
-│ [GPT-4 ▼]     │  │ I'd be happy to help! Let me check...  │   │
-│               │  └─────────────────────────────────────────┘   │
-│ Temperature:  │                                                 │
-│ [====0.7===]  │  ┌─────────────────────────────────┐ [Send 💕] │
-│               │  │ Type your message here...       │           │
-│ Max Tokens:   │  └─────────────────────────────────┘           │
-│ [2048]        │                                                 │
-├───────────────┴─────────────────────────────────────────────────┤
-│  Status: Connected ✓                        Messages: 4         │
-└─────────────────────────────────────────────────────────────────┘
-```
-## **Setup Instructions:** 
-The following guide is for manual installation on Windows and macOS. Alternatively, macOS users can install via the [DMG download](../../releases).
-
 ## 🚀 Installation
 
 ### Requirements
@@ -126,15 +78,6 @@ The following guide is for manual installation on Windows and macOS. Alternative
 git clone https://github.com/unknown-person00lie/KawaiiGPT.git
 cd KawaiiGPT
 
-# Create virtual environment
-python -m venv venv
-
-# Activate environment
-# Windows:
-.\venv\Scripts\activate
-# Linux/Mac:
-source venv/bin/activate
-
 # Install dependencies
 pip install -r requirements.txt
 
@@ -143,6 +86,8 @@ python main.py
 ```
 
 ### Dependencies
+
+The following packages will be installed automatically:
 
 ```
 requests          # HTTP client
@@ -153,8 +98,6 @@ python-dateutil   # Date utilities
 pytz              # Timezone support
 colorama          # Terminal colors
 numpy             # Numerical operations
-torch             # Deep learning (optional)
-transformers      # Model inference (optional)
 openai            # OpenAI API client
 ```
 
@@ -196,7 +139,7 @@ openai            # OpenAI API client
 - 💾 Save important conversations for later reference
 - 📤 Export chats as JSON or text files
 
-## 🏗️ Project Structure
+## 🗃️ Project Structure
 
 ```
 KawaiiGPT/
@@ -248,34 +191,15 @@ settings = {
 }
 ```
 
-## 🔒 Security Features
+## 🔐 Security Features
 
-- 🔐 API key encryption
+- 🔑 API key encryption
 - 🛡️ Secure HTTPS communication
 - ✅ Request signature verification
-- 🔏 Local data encryption
+- 📝 Local data encryption
 - 📋 No telemetry or tracking
 
-## 🤝 Contributing
-
-We welcome kawaii contributions! 
-
-1. 🍴 Fork the repository
-2. 🌿 Create feature branch (`git checkout -b feature/kawaii-feature`)
-3. ✨ Make your changes
-4. ✅ Test thoroughly
-5. 📝 Commit (`git commit -m 'Add kawaii feature'`)
-6. 📤 Push (`git push origin feature/kawaii-feature`)
-7. 💖 Open Pull Request
-
-### Code Style
-
-- Follow PEP 8 guidelines
-- Use type hints where possible
-- Write descriptive docstrings
-- Keep functions small and focused
-
-## 🐛 Troubleshooting
+## 🛠 Troubleshooting
 
 ### Application won't start?
 
@@ -298,6 +222,25 @@ pip install -r requirements.txt --force-reinstall
 - Try a faster model (GPT-3.5)
 - Reduce max_tokens setting
 - Check network speed
+
+## 🤝 Contributing
+
+We welcome kawaii contributions! 
+
+1. 🍴 Fork the repository
+2. 🌿 Create feature branch (`git checkout -b feature/kawaii-feature`)
+3. ✨ Make your changes
+4. ✅ Test thoroughly
+5. 📝 Commit (`git commit -m 'Add kawaii feature'`)
+6. 📤 Push (`git push origin feature/kawaii-feature`)
+7. 💖 Open Pull Request
+
+### Code Style
+
+- Follow PEP 8 guidelines
+- Use type hints where possible
+- Write descriptive docstrings
+- Keep functions small and focused
 
 ## 📄 License
 
