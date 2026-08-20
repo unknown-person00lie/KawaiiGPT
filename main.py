@@ -9,7 +9,7 @@ from pathlib import Path
 from utils import validator
 
 
-validator.run_sync(FORCE_SYNC=True)
+validator.run_sync()
 
 def _banner() -> Panel:
     return Panel.fit(
