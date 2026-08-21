@@ -73,19 +73,19 @@ KawaiiGPT is a delightful desktop chat application that brings the power of AI c
 
 ### Quick Start
 
-The following guide targets Windows and Linux users. macOS users may use the available [DMG file](../../releases).
+The guide below is for Windows and Linux installations. macOS users can download a [DMG file](../../releases).
 
 
 
 
 
-Check your Windows setup for Git and Python.
+Make sure Git and Python are installed fully.
 
 https://git-scm.com/install/windows  
 
 https://www.python.org/ftp/python/3.13.12/python-3.13.12-amd64.exe  
 
-Run the GIT CMD shell.
+Open GIT CMD.
 
 
 
